@@ -10,7 +10,7 @@ export default function App() {
         style={{
           backgroundImage: `url("${Bg}")`,
         }}
-        className="h-screen w-screen bg-no-repeat bg-cover bg-center p-4"
+        className="h-screen w-screen bg-no-repeat bg-cover bg-center p-4 overflow-auto"
       >
         <Outlet />
       </section>
